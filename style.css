@@ -1,0 +1,281 @@
+/* Reset des styles */
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+  
+ span{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* Styles pour le header */
+header 
+{
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main, section, p{
+	line-height: 1.5;
+}
+
+#moi{
+	text-align: center;
+	
+}
+header h1 {
+	font-size: 24px;
+	color: #333;
+}
+
+
+h2{padding: 10px;}
+
+nav ul {
+	display: flex;
+    
+}
+
+nav ul li {
+	list-style: none;
+	margin-right: 20px;
+}
+nav ul li a {
+    
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+    
+	border-radius: 2px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+  }
+
+
+
+/* Styles pour le main */
+main {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+section {
+	flex-basis: calc(50% - 20px);
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+section h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.image1 {
+	flex: 1;
+	text-align: center;
+}
+
+.image1 img {
+	width: 75%;
+	margin: 10px;
+}
+
+.image2 {
+	flex: 1;
+	text-align: center;
+	width: 25%;
+}
+
+.image2 img {
+	max-width: 50%;
+
+}
+
+.text {
+	flex: 1;
+	padding: 20px;
+	
+}
+
+.text h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+p{
+	color: #333;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: medium;
+}
+
+
+
+
+
+
+/* Styles pour le footer */
+footer {
+	background-color: #f2f2f2;
+	margin: 20px;
+	
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+}
+
+/*assoc belge*/
+
+
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  h2{
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px #00000080;
+	justify-content: space-around;
+  }
+  
+  li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #D60E2D;
+    text-decoration: underline;
+  }
+  
+  /*formulaire*/
+ section{
+	background-color: #f2f2f2;
+ }
+  .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#contact-form {
+	width: 75%;
+	max-width: 600px;
+	margin: auto; /* Ajout de cette ligne pour centrer le formulaire */
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: #ccc solid 1px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+button[type="submit"] {
+	background-color: #3EE65F;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #0B9927;
+}
+
+/*drpeaux*/
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px; /* ajoute un espace de 20px entre chaque div */
+	margin-top: 20px;
+	margin-left: 20px;
+  }
+  
+  .image {
+	
+	margin-right: 20px;
+	width: 25%;
+	border: 1px solid #333;
+	
+  }
+  
+  .text {
+	flex: 1;
+	margin-left: 5px;
+  }
+  
+  .title {
+	text-align: center; /* centre le titre horizontalement */
+  }
+  
+  .content {
+	margin-top: 5px; /* ajoute une marge de 5px entre l'image et le paragraphe */
+  }
+
+  .content1 {
+	margin-top: 5px; /* ajoute une marge de 5px entre l'image et le paragraphe */
+	text-align: center;
+  }
+  
+  /*blog*/
+  
+  
+  
+  
+  
+
+
